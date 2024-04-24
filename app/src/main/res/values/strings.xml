@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sportiverse</string>
+    <string
+
+        name="title_activity_videoimageplayer">videoimageplayer</string>
+    <string name="tab_text_1">Photos</string>
+    <string name="tab_text_2">Videos</string>
+    <string name="tab_text_3">Profile</string>
+</resources>

@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "377962728653",
+    "firebase_url": "https://social-media-2-eaf03-default-rtdb.firebaseio.com",
+    "project_id": "social-media-2-eaf03",
+    "storage_bucket": "social-media-2-eaf03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377962728653:android:aadb80f87e7c731a2eed84",
+        "android_client_info": {
+          "package_name": "edu.northeastern.social_media2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377962728653-1mv90qf4e5j3pc0sanriovjqh0rm02mk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.northeastern.social_media2",
+            "certificate_hash": "e3273627bdf065f9445eb66d8d2980d4b0ab744d"
+          }
+        },
+        {
+          "client_id": "377962728653-9r9ftg7j5eh1e6k6fpp0icsmssjb8m8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.northeastern.social_media2",
+            "certificate_hash": "ca1d63c6ddc299214c7b35685e51cc18eb12e1ec"
+          }
+        },
+        {
+          "client_id": "377962728653-js24u6jotb7n7kboomf4hjch4idt1hon.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.northeastern.social_media2",
+            "certificate_hash": "ad5a72f9df7fdc34652f02dc51aadee5f6d8c8be"
+          }
+        },
+        {
+          "client_id": "377962728653-shiq3rmiune7mimdrqpf891hbju25okp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqcgNCOH68y6dLuejFjtEz1jj2_8YSMfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377962728653-shiq3rmiune7mimdrqpf891hbju25okp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package= "edu.northeastern.social_media2"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.hardware.telephone" android:requiredFeature="false" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Social_media2"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".videoimageplayer"
+            android:exported="false"
+            android:label="videoimageplayer"
+            android:theme="@style/Theme.Social_media2.NoActionBar" />
+        <activity
+            android:name=".phone_authentication"
+            android:exported="false" />
+
+        <activity
+            android:name=".CreatePost"
+            android:exported="false"/>
+
+        <activity
+            android:name=".CreateVideoPost"
+            android:exported="false"/>
+        <activity
+            android:name=".YourPost"
+            android:exported="false"/>
+
+        <activity
+            android:name=".Friends"
+            android:exported="false"/>
+
+        <activity
+            android:name=".Message"
+            android:exported="false"/>
+
+        <activity
+            android:name=".VideoMessage"
+            android:exported="false"/>
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false"/>
+
+        <activity
+            android:name=".SendVideoPost"
+            android:exported="false"/>
+
+        <activity
+            android:name=".YourVideoPost"
+            android:exported="false"/>
+
+        <activity
+            android:name=".Send_Post"
+            android:exported="false"/>
+
+        <activity
+            android:name=".DisplayVideo"
+            android:exported="false"/>
+
+        <activity
+            android:name=".DisplayVideo2"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

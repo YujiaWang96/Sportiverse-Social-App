@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:id="@+id/idLLTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+        <!--circle image for displaying the user image-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/idCVAuthor"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp" />
+        <!--text view for displaying user name-->
+        <TextView
+            android:id="@+id/idTVAuthorName"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:text="name"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addfriend"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Add Friend"
+            android:backgroundTint="@color/blue"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"
+            app:cornerRadius="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="10dp" />
+    </LinearLayout>
+    <!--image view to display the post image-->
+    <ImageView
+        android:id="@+id/idIVPost"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/idLLTopBar"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/idTVdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVPost"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:padding="5dp"
+        android:text="Description"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+    <!--text view to display likes count-->
+    <TextView
+        android:id="@+id/idTVLikes"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVdesc"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:padding="5dp"
+        android:text="likes"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+    <!--text view to display the caption
+    in instagram post-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/idTVLikesbtn"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/idTVdesc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:backgroundTint="@color/blue"
+        android:padding="5dp"
+        android:text="likes"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sharebutton"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVLikes"
+        android:layout_marginLeft="4dp"
+        android:backgroundTint="@color/blue"
+        android:gravity="center"
+        android:text="Share"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+    <TextView
+        android:id="@+id/idTVPostuserid"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sharebutton"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/idTVPosttimekey"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sharebutton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="6dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:visibility="invisible" />
+</RelativeLayout>
